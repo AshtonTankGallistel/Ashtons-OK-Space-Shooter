@@ -72,7 +72,7 @@ class titleScreen extends Phaser.Scene{
         my.sprite.player = this.add.sprite(game.config.width / 2,this.permanentY,"Player");
 
         //text display
-        my.text.title = this.add.bitmapText(game.config.width / 4, game.config.height / 8, "rocketSquare", "TANK'S OK SPACE SHOOTER");
+        my.text.title = this.add.bitmapText(game.config.width / 4, game.config.height / 8, "rocketSquare", "ASHTON'S OK SPACE SHOOTER");
         my.text.title.x = game.config.width / 2 - my.text.title.displayWidth / 2;
 
         //my.text.scoreDisplay = this.add.bitmapText(my.text.title.x, game.config.height / 3, "rocketSquare", "High Score: " + highScore);
